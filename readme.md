@@ -7,7 +7,7 @@
 
 ชื่อ-สกุล :นายศุภฤกษ์ เขื่อนเพชร
 
-GitHub Page URL :
+GitHub Page URL :https://cpe207-students-167.github.io/lab07-suphaloek66/
 
 ---
 

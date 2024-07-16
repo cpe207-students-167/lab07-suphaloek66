@@ -3,7 +3,7 @@ const firstNameInput = document.querySelector("#first-name-input");
 const lastNameInput = document.querySelector("#last-name-input");
 const emailInput = document.querySelector("#email-input");
 const passwordInput = document.querySelector("#password-input");
-const confirmPasswordInput = document.querySelector("#confirm-password-input");
+const confirmPasswordInput = document.querySelector("#password-confirm-input");
 
 // create reference for buttons.
 const submitBtn = document.querySelector("#submit-btn");
@@ -100,7 +100,7 @@ submitBtn.onclick = () => {
 };
 
 // add callback function for Reset button.
- reset.onclick = () => {
+ resetBtn.onclick = () => {
   firstNameInput.value = "";
   firstNameInput.classList.remove("is-valid");
   firstNameInput.classList.remove("is-invalid");
